@@ -1,0 +1,448 @@
+{
+  "experiment_id": 0,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.7494216079939660297,
+}
+{
+  "experiment_id": 1,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.1926456875533522546,
+}
+{
+  "experiment_id": 2,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.6349536000809522839,
+}
+{
+  "experiment_id": 3,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.5448437599311041326,
+}
+{
+  "experiment_id": 4,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.7440024548564078254,
+}
+{
+  "experiment_id": 5,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.1295971831630052381,
+}
+{
+  "experiment_id": 6,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.5624473517565799388,
+}
+{
+  "experiment_id": 7,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.9762863985938501831,
+}
+{
+  "experiment_id": 8,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.6173473308523090759,
+}
+{
+  "experiment_id": 9,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.5440421621678070987,
+}
+{
+  "experiment_id": 10,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.3070532549354155261,
+}
+{
+  "experiment_id": 11,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 10.183491673132106169,
+}
+{
+  "experiment_id": 12,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.1545540143132136776,
+}
+{
+  "experiment_id": 13,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.6526581806010166931,
+}
+{
+  "experiment_id": 14,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.2088038786875286846,
+}
+{
+  "experiment_id": 15,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.8818619691535066691,
+}
+{
+  "experiment_id": 16,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.4706323703984721337,
+}
+{
+  "experiment_id": 17,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.5167815264222961604,
+}
+{
+  "experiment_id": 18,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.5598937528279733355,
+}
+{
+  "experiment_id": 19,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 5.9081605348972584795,
+}
+{
+  "experiment_id": 20,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.8430696868446596612,
+}
+{
+  "experiment_id": 21,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 9.2546670900336682995,
+}
+{
+  "experiment_id": 22,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 9.147044700569276772,
+}
+{
+  "experiment_id": 23,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.3655067737219811199,
+}
+{
+  "experiment_id": 24,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.3218002817485189205,
+}
+{
+  "experiment_id": 25,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.7555188004297529172,
+}
+{
+  "experiment_id": 26,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.3549056381933452398,
+}
+{
+  "experiment_id": 27,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.9247027884424769742,
+}
+{
+  "experiment_id": 28,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.9012607877110975752,
+}
+{
+  "experiment_id": 29,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.8870177473838602106,
+}
+{
+  "experiment_id": 30,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.080200130935277965,
+}
+{
+  "experiment_id": 31,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 10.843572716343448708,
+}
+{
+  "experiment_id": 32,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.447177746080269159,
+}
+{
+  "experiment_id": 33,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.0398561044342081736,
+}
+{
+  "experiment_id": 34,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.4597093334058350821,
+}
+{
+  "experiment_id": 35,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.1779040155465836642,
+}
+{
+  "experiment_id": 36,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.9576629736388321767,
+}
+{
+  "experiment_id": 37,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.3824061220885041096,
+}
+{
+  "experiment_id": 38,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.5028856347327071174,
+}
+{
+  "experiment_id": 39,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.5488959313014718155,
+}
+{
+  "experiment_id": 40,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.544120581091915953,
+}
+{
+  "experiment_id": 41,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.2117568410171683305,
+}
+{
+  "experiment_id": 42,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.3483134484682715122,
+}
+{
+  "experiment_id": 43,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.7855440016896268543,
+}
+{
+  "experiment_id": 44,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.7456092847732462784,
+}
+{
+  "experiment_id": 45,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.0315209027404040666,
+}
+{
+  "experiment_id": 46,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 5.248666488473212194,
+}
+{
+  "experiment_id": 47,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.0795689515940991975,
+}
+{
+  "experiment_id": 48,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.2095829066803459703,
+}
+{
+  "experiment_id": 49,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.1514576011511933351,
+}
+{
+  "experiment_id": 50,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.8229945494049304912,
+}
+{
+  "experiment_id": 51,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.1092479612034017965,
+}
+{
+  "experiment_id": 52,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.6488116210100706009,
+}
+{
+  "experiment_id": 53,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 8.1586494112503868906,
+}
+{
+  "experiment_id": 54,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 7.5677582474190607698,
+}
+{
+  "experiment_id": 55,
+  "N": 10,
+  "depth": 10,
+  "nSamples": 10000,
+  "MaxDim": 200,
+  "F_value": 6.1434389461150555943,
+}
