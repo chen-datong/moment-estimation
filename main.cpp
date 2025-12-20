@@ -429,6 +429,13 @@ unsigned long long choose3(std::size_t M)
     return m*(m-1)*(m-2)/6;
 }
 
+unsigned long long choose2(std::size_t M)
+{
+    if (M < 2) return 0ULL;
+    unsigned long long m = static_cast<unsigned long long>(M);
+    return m * (m - 1) / 2;
+}
+
 // ====================== main =======================
 
 int
@@ -440,6 +447,7 @@ main(int argc, char* argv[])
     int nSamples = 50;   // 采样次数
     int maxDim   = 300;  // 最大 bond dimension
     double dprob = 0.0;
+    double h = 1.0;
     int experiment_id = 0;  // 默认 0
 
     if(argc > 1) N        = std::stoi(argv[1]);
@@ -447,7 +455,8 @@ main(int argc, char* argv[])
     if(argc > 3) nSamples = std::stoi(argv[3]);
     if(argc > 4) maxDim   = std::stoi(argv[4]);
     if(argc > 5) dprob    = std::stod(argv[5]);
-    if(argc > 6) experiment_id = std::stoi(argv[6]);
+    if(argc > 6) h        = std::stod(argv[6]);
+    if(argc > 7) experiment_id = std::stoi(argv[7]);
 
     // auto sites = SpinHalf(N,{"ConserveQNs=",false});
 
@@ -460,7 +469,7 @@ main(int argc, char* argv[])
     // makeGHZMPS(psi,sites,maxDim);
 
     double J = 1.0;
-    double h = 2.0;
+    // double h = 1.0;
     MPS psi;
     std::ostringstream oss;
     oss << "MPS/ising_N" << N
@@ -498,27 +507,34 @@ std::size_t check_idx = 0; // 指向下一个要触发的 checklist 元素
 auto write_checkpoint = [&](std::size_t curSamples) -> int {
     // === 计算 sum_C3 ===
     unsigned long long sum_C3 = 0ULL;
+    unsigned long long sum_C2 = 0ULL;
     for (std::size_t x = 0; x < dim; ++x) {
         sum_C3 += choose3(counts[x]);
+        sum_C2 += choose2(counts[x]);
     }
 
     long double S_ld = (long double)sum_C3;
-
+    long double S_nd = (long double)sum_C2;
     // d = 2^N
     long double d = powl(2.0L, (long double)N);
 
     // numerator = S * (d+2)(d+1)
     long double numerator = S_ld * (d + 2.0L) * (d + 1.0L);
+    long double numerator_nd = S_nd * (d + 1.0L);
 
     // denominator = C(curSamples,3)
     long double sample_ld = (long double)curSamples;
     long double denom = sample_ld * (sample_ld - 1.0L) * (sample_ld - 2.0L) / 6.0L;
+    long double denom_nd = sample_ld * (sample_ld - 1.0L) / 2.0L;
 
     long double F = numerator / denom;
+    long double Purity = numerator_nd / denom_nd;
+
+    
 
     // === 写入文件：nSamples 用 curSamples（也就是 s+1）===
     std::ostringstream oss;
-    oss << "TIM/n" << N
+    oss << "TIM_complete/n" << N
         << "_depth" << depth
         << "_J" << std::fixed << std::setprecision(2) << J
         << "_h" << std::fixed << std::setprecision(2) << h
@@ -541,6 +557,7 @@ auto write_checkpoint = [&](std::size_t curSamples) -> int {
     ofs << "\"nSamples\":" << curSamples << ",";
     ofs << "\"MaxDim\":" << maxDim << ",";
     ofs << "\"p\":" << std::setprecision(2) << dprob << ",";
+    ofs << "\"Purity\":" << std::setprecision(20) << Purity << ",";
     ofs << "\"F\":" << std::setprecision(20) << F;
     ofs << "}\n";
 
