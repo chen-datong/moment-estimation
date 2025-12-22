@@ -1,5 +1,5 @@
 # ITensor paths
-LIBRARY_DIR = /home/cdt/ctest/itensor
+LIBRARY_DIR = /home/bell/itensor
 
 
 APP = main

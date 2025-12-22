@@ -4,15 +4,16 @@
 N=15
 P=0.2
 MAX_DIM=500
+S=1000000
 
 # 扫描的 depth 列表（你可以自己加）
-DEPTHS=(15 20 25 30 35 40)
+DEPTHS=(25)
 
 # 扫描的 sampleNum 列表
-SAMPLES=(1000000)
+HS=(2.0)
 
 # 每个条件重复次数
-REPEATS=10000
+REPEATS=1000
 
 # 输出目录
 OUTDIR="estimate_third"
@@ -27,13 +28,13 @@ for DEPTH in "${DEPTHS[@]}"
 do
     echo "=== Running depth = $DEPTH ==="
 
-    for S in "${SAMPLES[@]}"
+    for H in "${HS[@]}"
     do
-        echo "  sampleNum = $S"
+        echo "  h = $H"
 
         for ((i=1; i<=REPEATS; i++))
         do
-            ./main $N $DEPTH $S $MAX_DIM $P $exp_id 
+            ./main $N $DEPTH $S $MAX_DIM $P $H $exp_id 
             ((exp_id++))
 
             if (( i % 500 == 0 )); then
