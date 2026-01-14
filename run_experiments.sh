@@ -2,15 +2,15 @@
 
 # 固定参数
 N=15
-P=0.2
 MAX_DIM=500
 S=1000000
+H=1.0
 
 # 扫描的 depth 列表（你可以自己加）
-DEPTHS=(25)
+DEPTHS=(15 35)
 
 # 扫描的 sampleNum 列表
-HS=(2.0)
+PS=(0.0 0.5 1.0 1.5 2.5 3.0)
 
 # 每个条件重复次数
 REPEATS=1000
@@ -28,9 +28,9 @@ for DEPTH in "${DEPTHS[@]}"
 do
     echo "=== Running depth = $DEPTH ==="
 
-    for H in "${HS[@]}"
+    for P in "${PS[@]}"
     do
-        echo "  h = $H"
+        echo "  p = $P"
 
         for ((i=1; i<=REPEATS; i++))
         do
